@@ -5,9 +5,11 @@ import './index.css'
 
 interface PostItemProps {
     post: IPost;
+    remove: (post: IPost) => void;
+    update: (post: IPost) => void;
 }
 
-const PostItem: FC<PostItemProps> = ({post}) => {
+const PostItem: FC<PostItemProps> = ({post, remove, update}) => {
 
     return (
         <div className="post">

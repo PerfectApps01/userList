@@ -25,7 +25,6 @@ export const userSlice = createSlice({
                     state.isLoading = false;
                     state.error = '';
                     state.users = action.payload;
-                    console.log('userSlice', state.users)
                 })
             .addCase(fetchUsers.pending.type, (state: UserState) => {
                 state.isLoading = true;

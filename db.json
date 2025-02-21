@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "0467",
+      "title": "FFF",
+      "body": "FFF"
+    },
+    {
+      "id": "6378",
+      "title": "ggg",
+      "body": "ggg"
+    },
+    {
+      "id": "3537",
+      "title": "vvv",
+      "body": "vvv"
+    },
+    {
+      "id": "7708",
+      "title": "ttt",
+      "body": "ttt"
+    },
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
